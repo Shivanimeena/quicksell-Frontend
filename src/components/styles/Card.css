@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 20px;
     margin-top: 20px;
@@ -25,7 +25,7 @@
 
 .card-user {
     position: relative;
-    margin-right: 8px;
+    margin-right: 9px;
 }
 
 .card-user-icon {
@@ -55,18 +55,18 @@
 
 .inactive-user {
     position: absolute;
-    background-color: #E5E5E5;
+    background-color: #bf3a3a;
     height: 10px;
     width: 10px;
     bottom: -5px;
     right: -5px;
     border-radius: 10px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #b62e2e;
 }
 
 .card-body {
     display: flex;
-    /* grid-template-columns: 10% 90%; */
+    
     justify-content: left;
     align-items: flex-start;
     width: 100%;
